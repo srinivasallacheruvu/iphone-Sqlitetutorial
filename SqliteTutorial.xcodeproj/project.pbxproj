@@ -18,6 +18,8 @@
 		4DC72D771744C61B00AC31F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC72D761744C61B00AC31F3 /* Default-568h@2x.png */; };
 		4DC72D7A1744C61B00AC31F3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC72D781744C61B00AC31F3 /* MainStoryboard.storyboard */; };
 		4DC72D7D1744C61B00AC31F3 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC72D7C1744C61B00AC31F3 /* HelloWorldViewController.m */; };
+		4DC72D841744C65B00AC31F3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC72D831744C65B00AC31F3 /* libsqlite3.dylib */; };
+		4DC72D871744C8C000AC31F3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC72D861744C8C000AC31F3 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		4DC72D791744C61B00AC31F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4DC72D7B1744C61B00AC31F3 /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		4DC72D7C1744C61B00AC31F3 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		4DC72D831744C65B00AC31F3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4DC72D851744C8C000AC31F3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4DC72D861744C8C000AC31F3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC72D841744C65B00AC31F3 /* libsqlite3.dylib in Frameworks */,
 				4DC72D611744C61B00AC31F3 /* UIKit.framework in Frameworks */,
 				4DC72D631744C61B00AC31F3 /* Foundation.framework in Frameworks */,
 				4DC72D651744C61B00AC31F3 /* CoreGraphics.framework in Frameworks */,
@@ -56,9 +62,9 @@
 		4DC72D511744C61A00AC31F3 = {
 			isa = PBXGroup;
 			children = (
+				4DC72D831744C65B00AC31F3 /* libsqlite3.dylib */,
 				4DC72D661744C61B00AC31F3 /* SqliteTutorial */,
 				4DC72D5F1744C61B00AC31F3 /* Frameworks */,
-				4DC72D5D1744C61A00AC31F3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +74,7 @@
 				4DC72D5C1744C61A00AC31F3 /* SqliteTutorial.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4DC72D5F1744C61B00AC31F3 /* Frameworks */ = {
@@ -89,6 +96,9 @@
 				4DC72D7B1744C61B00AC31F3 /* HelloWorldViewController.h */,
 				4DC72D7C1744C61B00AC31F3 /* HelloWorldViewController.m */,
 				4DC72D671744C61B00AC31F3 /* Supporting Files */,
+				4DC72D851744C8C000AC31F3 /* Person.h */,
+				4DC72D861744C8C000AC31F3 /* Person.m */,
+				4DC72D5D1744C61A00AC31F3 /* Products */,
 			);
 			path = SqliteTutorial;
 			sourceTree = "<group>";
@@ -177,6 +187,7 @@
 				4DC72D6D1744C61B00AC31F3 /* main.m in Sources */,
 				4DC72D711744C61B00AC31F3 /* HelloWorldAppDelegate.m in Sources */,
 				4DC72D7D1744C61B00AC31F3 /* HelloWorldViewController.m in Sources */,
+				4DC72D871744C8C000AC31F3 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
